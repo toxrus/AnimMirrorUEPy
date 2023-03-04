@@ -1,4 +1,9 @@
 # AnimMirrorUEPy
+
+WARNING:
+USE IN SEPERATE (EMPTY) PROJECT NOT IN CURRENT PRODUCTION PROJECT. LOSS OF DATA. PROJECT BREAKING ETC. MIGHT OCCUR.
+
+
 Simple python script to batch mirror animations in Unreal Engine Sequencer.
 Tested on 5.1.1
 
