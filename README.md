@@ -1,6 +1,7 @@
 # AnimMirrorUEPy
 Simple python script to batch mirror animations in Unreal Engine Sequencer.
 Tested on 5.1.1
+
 How to use:
 1. Create an empty level and drop in the SkeletalMeshActor you want to create mirrored animations for. 
 2. Create a MirrorDataTable for the corresponding skeleton (Animation -> M<irror Data Table)
