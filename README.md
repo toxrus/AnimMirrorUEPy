@@ -14,11 +14,12 @@ How to use:
 4. Put your original animations inside a folder (optional)
 5. Create a folder to save the mirrored animations in (optional)
 6. Inside the python file under def addSkeletalAnimationTrackOnActor() (line 28) change the following lines to match the names of your assets
-    sequencesFolder_path = '/Game/ConvertAnimations/InputAnimations'
-    outputFolder_path = '/Game/ConvertAnimations/OutputAnimations/'
-    sequence_path = '/Game/ConvertAnimations/MirrorLevelSequence'
-    mirrorData_path = '/Game/ConvertAnimations/DT_Mirror'
-    animSuffix = '_Mirrored'
+
+    - sequencesFolder_path = '/Game/ConvertAnimations/InputAnimations'
+    - outputFolder_path = '/Game/ConvertAnimations/OutputAnimations/'
+    - sequence_path = '/Game/ConvertAnimations/MirrorLevelSequence'
+    - mirrorData_path = '/Game/ConvertAnimations/DT_Mirror'
+    - animSuffix = '_Mirrored'
 7. Enable the "Python Editor Script Plugin"
 8. Make sure the level is open and visible in the active viewport -> Under Tools select "Execute Python Script ..."
 9. Select MirrorAnimn.py. Check Output Log for completion message.
