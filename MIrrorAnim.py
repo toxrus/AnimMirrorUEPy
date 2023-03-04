@@ -83,5 +83,5 @@ def addSkeletalAnimationTrackOnActor():
 # Run code
 addSkeletalAnimationTrackOnActor()
 unreal.LevelSequenceEditorBlueprintLibrary.refresh_current_level_sequence()
-
+print("Animation mirroring completed. Enjoy")
 # unreal.SequencerTools.export_anim_sequence(world, sequence, anim_sequence, export_option, binding, create_link)
